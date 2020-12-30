@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flower_backg"
+    tools:context=".Flower_secondPage">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="733dp"
+        android:layout_height="129dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_marigold"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/marigold" />
+
+        <Button
+            android:id="@+id/btn_rose"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/rose" />
+
+        <Button
+            android:id="@+id/btn_sunflower"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/sunflower" />
+
+        <Button
+            android:id="@+id/btn_tulip"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/tulip" />
+
+        <Button
+            android:id="@+id/btn_water_lily"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/water_lily" />
+
+        <Button
+            android:id="@+id/btn_zinna"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/zinna" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_back_flower"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Back Page"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_flowero" />
+
+    <ImageView
+        android:id="@+id/img_flowero"
+        android:layout_width="323dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flower_card" />
+
+    <TextView
+        android:id="@+id/txt_flowero"
+        android:layout_width="302dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="165dp"
+        android:fontFamily="@font/goblin_one"
+        android:text="Flowers"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Flowers" />
+</androidx.constraintlayout.widget.ConstraintLayout>

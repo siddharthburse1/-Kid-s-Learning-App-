@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea_animal_backg"
+    tools:context=".Sea_animal_SecondPage">
+
+    <Button
+        android:id="@+id/btn_back_sea_animal"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="184dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:text="Back Page"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_sea_animalo" />
+
+    <ImageView
+        android:id="@+id/img_sea_animalo"
+        android:layout_width="341dp"
+        android:layout_height="226dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sea_animal_card" />
+
+    <TextView
+        android:id="@+id/txt_sea_animalo"
+        android:layout_width="292dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:fontFamily="@font/goblin_one"
+        android:text="Sea Animal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Sea Animal" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="721dp"
+        android:layout_height="134dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_penguin"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/penguin" />
+
+        <Button
+            android:id="@+id/btn_seahorse"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/seahorse" />
+
+        <Button
+            android:id="@+id/btn_seal"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/seal" />
+
+        <Button
+            android:id="@+id/btn_starfish"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/starfish" />
+
+        <Button
+            android:id="@+id/btn_stingray"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/stingray" />
+
+        <Button
+            android:id="@+id/btn_turtle"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/turtle" />
+
+        <Button
+            android:id="@+id/btn_whale"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="138dp"
+            android:layout_height="169dp"
+            android:layout_weight="1"
+            android:background="@mipmap/whale" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

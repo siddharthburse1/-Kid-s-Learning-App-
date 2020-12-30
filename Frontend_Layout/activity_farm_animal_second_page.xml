@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/farm_animal_backg"
+    tools:context=".Farm_animal_secondPage">
+
+
+    <Button
+        android:id="@+id/btn_back_farmanimal"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="132dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="32dp"
+        android:text="Back page"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="720dp"
+        android:layout_height="116dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_goat"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/goat" />
+
+        <Button
+            android:id="@+id/btn_horse"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/horse" />
+
+        <Button
+            android:id="@+id/btn_monkey"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/monkeya" />
+
+        <Button
+            android:id="@+id/btn_pig"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/pig" />
+
+        <Button
+            android:id="@+id/btn_rabbit"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/rabbit" />
+
+        <Button
+            android:id="@+id/btn_sheep"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/sheep" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_farm_animalo"
+        android:layout_width="292dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="@font/goblin_one"
+        android:text="Farm Animal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_farm_animalo"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Farm Animal" />
+
+    <ImageView
+        android:id="@+id/img_farm_animalo"
+        android:layout_width="341dp"
+        android:layout_height="226dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/farm_animal_card" />
+</androidx.constraintlayout.widget.ConstraintLayout>

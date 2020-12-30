@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fruit_backg"
+    tools:context=".Fruit">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="733dp"
+        android:layout_height="129dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_apple"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/apple" />
+
+        <Button
+            android:id="@+id/btn_banana"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/banana" />
+
+        <Button
+            android:id="@+id/btn_coconut"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/coconut" />
+
+        <Button
+            android:id="@+id/btn_dragon_food"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/dragon_food" />
+
+        <Button
+            android:id="@+id/btn_grapes"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/grapes" />
+
+        <Button
+            android:id="@+id/btn_lemon"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/lemon" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_next_fruit"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Next page >>"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_flower" />
+
+    <TextView
+        android:id="@+id/txt_fruit"
+        android:layout_width="337dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/goblin_one"
+        android:text="Fruits"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/btn_next_flower"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_farm_animal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Fruits" />
+
+    <ImageView
+        android:id="@+id/img_fruit"
+        android:layout_width="341dp"
+        android:layout_height="226dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666"
+        app:srcCompat="@drawable/fruit_card" />
+</androidx.constraintlayout.widget.ConstraintLayout>

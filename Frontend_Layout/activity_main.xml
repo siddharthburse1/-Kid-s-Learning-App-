@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/kidsplaying_backgroundimg"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="730dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="28dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Alphabet_Card"
+            android:layout_width="2dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#FFFFFF">
+
+            <TextView
+                android:id="@+id/t_alphabet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:text="ALPHABET"
+                android:textColor="#FF1744"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_abc"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/abc" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Number_Card"
+            android:layout_width="2dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/t_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:text="NUMBER"
+                android:textColor="#FF1744"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_num"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/num" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Color_Card"
+            android:layout_width="2dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/t_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:text="COLOR"
+                android:textColor="#FF1744"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                app:srcCompat="@drawable/colordash" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Bodyparts_Card"
+            android:layout_width="2dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txt_bodyparts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:text="BODYPARTS"
+                android:textColor="#FF1744"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_bodyparts"
+                android:layout_width="125dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/bodycard_imgone" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/Animal_section_Card"
+            android:layout_width="2dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txt_Animal_section"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:text="ANIMALS"
+                android:textColor="#FF1744"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_animal_section_card"
+                android:layout_width="125dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/wild_animal_card" />
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="566dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginLeft="73dp"
+        android:layout_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kidslearningapp_img" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="75dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/schoolboy" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="729dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout1">
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/Bird_Card"
+            android:layout_width="2dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/img_bird_card"
+                android:layout_width="125dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/birds_card" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:text="BIRDS"
+                android:textColor="#FF1744"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Vegetables_Card"
+            android:layout_width="2dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/img_vegetables_card"
+                android:layout_width="125dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/vegetables_card" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:text="VEGETABLES"
+                android:textColor="#FF1744"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Shapes_Card"
+            android:layout_width="2dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:id="@+id/img_Shapes_card"
+                android:layout_width="125dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/shapes_card" />
+
+            <TextView
+                android:id="@+id/txt_Shapes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:text="SHAPES"
+                android:textColor="#FF1744"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Flower_Card"
+            android:layout_width="2dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/img_flower_card"
+                android:layout_width="125dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/flower_card" />
+
+            <TextView
+                android:id="@+id/txt_Flowers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:text="FLOWERS"
+                android:textColor="#FF1744"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Fruit_Card"
+            android:layout_width="2dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/img_fruit_card"
+                android:layout_width="125dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/fruit_card" />
+
+
+            <TextView
+                android:id="@+id/txt_Birds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:text="FRUITS"
+                android:textColor="#FF1744"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
