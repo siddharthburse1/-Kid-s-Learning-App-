@@ -1,0 +1,2 @@
+# -Kid-s-Learning-App-
+It is developed on android platform for android mobile devices. This app supports learning in a purposeful, effective and enjoyable way for the children. Children can use the app trouble free and in appropriate manner. It helps to gain the basic knowledge and provide tests for their skills. Kids can enjoy learning through games, quizzes and rhymes. It is developed in Java Language and build in Android Studio.
